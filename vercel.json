@@ -2,11 +2,11 @@
   "crons": [
     {
       "path": "/api/cron/expire-writer-assignments",
-      "schedule": "* * * * *"
+      "schedule": "0 3 * * *"
     },
     {
       "path": "/api/cron/cleanup-files",
-      "schedule": "0 3 * * *"
+      "schedule": "30 3 * * *"
     }
   ]
 }

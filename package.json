@@ -1,0 +1,39 @@
+{
+  "name": "writing-xpress",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test:registration-otp": "node tests/run-isolated.mjs"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.12",
+    "bcrypt": "^6.0.0",
+    "cfb": "^1.2.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1",
+    "next": "16.1.6",
+    "nodemailer": "^10.3.1",
+    "pdfjs-dist": "^5.4.296",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "yauzl": "^3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/yauzl": "^3.4.0",
+    "dotenv": "^18.0.9",
+    "mongodb-memory-server": "^11.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  }
+}
